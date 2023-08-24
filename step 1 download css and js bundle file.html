@@ -1,0 +1,36 @@
+step 1 download css and js bundle file
+
+step 2 find it into your downloads and extract the downloaded zip file
+
+step 3 copy the folders extracted which is folder css and folder js
+
+step 4 paste the folders inside your project
+
+step 5 import the files inside your index.html
+
+step 6 trace the directories for the minified bundles
+    for CSS: bootstrap.min.css
+    for JS: bootstrap.bundle.min.js
+
+
+Example: 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CSS Practice</title>
+
+        <!-- FOR THE CSS bundle -->
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="global.css">
+    </head>
+    <body>
+        <button class="btn btn-primary">Primary Button</button>
+
+        <!-- FOR THE JS BUNDLE -->
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

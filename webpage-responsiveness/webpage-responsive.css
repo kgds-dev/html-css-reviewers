@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+}
+
+/* mobile view styles */
+.wrapper {
+    width: 100%;
+}
+
+.page-banner {
+    display: none;
+}
+
+.article-info {
+    width: 100%;
+}
+
+.article-info h1 {
+    padding: 30px 30px 20px;
+    line-height: 40px;
+}
+
+.article-info p {
+    padding: 0px 30px 0px;
+    line-height: 20px;
+}
+
+.article-thumbnail {
+    width: 100%;
+}
+
+/* when screen size is 768px or higher (definitely tablet size)*/
+@media only screen and (min-width: 768px) {
+    .page-banner {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .article-info h1,
+    .article-info p {
+        padding: 20px 0px 0px;
+    }
+
+    .article-thumbnail {
+        padding-top: 30px;
+    }
+}
+
+/* when reaching desktop view (1024px above) */
+@media only screen and (min-width: 1024px) {
+    .wrapper {
+        width: 1000px;
+    }
+
+    .article-info {
+        width: 50%;
+        float: right;
+    }
+
+    .article-thumbnail {
+        width: 50%;
+        float: left;
+        padding-top: 0;
+    }
+
+    .article-info h1,
+    .article-info p {
+        padding: 20px 0px 0px 30px;
+    }
+}
+
+/* for mobile devices with lower than 576px width */
+@media (max-width: 575.98px) {
+    .dialog {
+      max-width: 90vw;
+    }
+  }
+  
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) {
+}

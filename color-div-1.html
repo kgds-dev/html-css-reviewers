@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Division</title>
+    <style>
+        * {
+            margin: 100px;
+        }
+
+        body {
+            margin: 0;
+            display: flex;
+        }
+
+        .first-section, .second-section, .third-section {
+            width: 100%;
+            height: 350px;
+        }
+
+        .first-section {
+            background-color: red;
+        }
+
+        .second-section {
+            background-color: blue;
+        }
+        
+        .third-section {
+            display: inline-flex;
+        }
+
+        .third-section-1, .third-section-2 {
+            height: 100%;
+        }
+
+        .third-section-1 {
+            width: 40%;
+            background-color: green;
+        }
+
+        .third-section-2 {
+            width: 60%;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>HELLO</div>
+    <span>This is a span</span>
+    <p>This is a paragraph</p>
+    <div class="first-section"></div>
+    <div class="second-section"></div>
+    <div class="third-section">
+        <div class="third-section-1">
+            <div class="another">
+                <div class="next1">
+                    <div class="next2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="third-section-2"></div>
+    </div>
+</body>
+</html>

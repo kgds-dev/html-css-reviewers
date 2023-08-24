@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Division</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        .column-container {
+            display: inline-flex;
+        }
+
+        .first-section, .second-section, .third-section {
+            height: 100vh;
+            width: 700px;
+        }
+
+        .first-section {
+            background-color: red;
+        }
+
+        .second-section {
+            background-color: blue;
+        }
+
+        .third-section-1 {
+            background-color: green;
+            height: 50%;
+        }
+
+        .third-section-2 {
+            background-color: yellow;
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="column-container">
+        <div class="first-section"></div>
+        <div class="second-section"></div>
+        <div class="third-section">
+            <div class="third-section-1"></div>
+            <div class="third-section-2"></div>
+        </div>
+    </div>
+</body>
+</html>
